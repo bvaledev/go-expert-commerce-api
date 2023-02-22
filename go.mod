@@ -7,10 +7,15 @@ require (
 	github.com/google/uuid v1.1.2
 	github.com/spf13/viper v1.15.0
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
+	gorm.io/driver/sqlite v1.4.4
+	gorm.io/gorm v1.24.5
 )
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/mattn/go-sqlite3 v1.14.15 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 )
 
