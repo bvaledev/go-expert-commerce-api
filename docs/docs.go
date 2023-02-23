@@ -438,7 +438,7 @@ var SwaggerInfo = &swag.Spec{
 	Host:             "localhost:8000",
 	BasePath:         "/",
 	Schemes:          []string{},
-	Title:            "GO Expert E-commerce",
+	Title:            "GO Expert Commerce",
 	Description:      "Uma aplicação de ecommerce feita em go.",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,

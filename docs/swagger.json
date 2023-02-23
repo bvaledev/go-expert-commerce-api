@@ -2,7 +2,7 @@
     "swagger": "2.0",
     "info": {
         "description": "Uma aplicação de ecommerce feita em go.",
-        "title": "GO Expert E-commerce",
+        "title": "GO Expert Commerce",
         "termsOfService": "http://swagger.io/terms/",
         "contact": {
             "name": "API Support",

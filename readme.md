@@ -1,23 +1,14 @@
-# Commerce
+# GO Expert Commerce
 
-## Install Swag
+## Run App
 
-`go install github.com/swaggo/swag/cmd/swag@latest`
+Copy env example `cp .env.example .env` and configure your it
+Run `make run`
 
-go env
+## Using Swag
 
-and see where is installed your go
- 
- ex /home/brendo/projects-go
+Run command `go install github.com/swaggo/swag/cmd/swag@latest` to install swag bin
 
- navigate to bin folder inside.. cd bin
+Add export `export PATH=$PATH:$GOPATH/bin` to your enviroment
 
- you must see the swag bin
-
- set your env with `export PATH=$PATH:$GOPATH/bin`
- 
-
-init swag
-
-swag init -g ./cmd/server/main.go
-go run ./cmd/server/main.go
+run `make builddoc` to update documentation

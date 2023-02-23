@@ -54,7 +54,7 @@ info:
     url: http://www.brendo.dev.br/support
   description: Uma aplicação de ecommerce feita em go.
   termsOfService: http://swagger.io/terms/
-  title: GO Expert E-commerce
+  title: GO Expert Commerce
   version: "1.0"
 paths:
   /products:

@@ -12,7 +12,7 @@ import (
 	_ "github.com/swaggo/files"
 )
 
-//	@title			GO Expert E-commerce
+//	@title			GO Expert Commerce
 //	@version		1.0
 //	@description	Uma aplicação de ecommerce feita em go.
 //	@termsOfService	http://swagger.io/terms/
