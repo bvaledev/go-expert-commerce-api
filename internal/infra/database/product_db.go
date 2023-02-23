@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/bvaledev/go-expert-commerce-api/internal/entity"
+	"github.com/bvaledev/go-expert-commerce-api/internal/domain/entity"
 	"gorm.io/gorm"
 )
 

@@ -3,7 +3,7 @@ package database
 import (
 	"testing"
 
-	"github.com/bvaledev/go-expert-commerce-api/internal/entity"
+	"github.com/bvaledev/go-expert-commerce-api/internal/domain/entity"
 	"github.com/bvaledev/go-expert-commerce-api/pkg/testhelper"
 	"github.com/stretchr/testify/assert"
 )

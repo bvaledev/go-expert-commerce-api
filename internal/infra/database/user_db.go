@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/bvaledev/go-expert-commerce-api/internal/entity"
+	"github.com/bvaledev/go-expert-commerce-api/internal/domain/entity"
 	"gorm.io/gorm"
 )
 
@@ -20,6 +20,14 @@ func (u *UserDB) Create(user *entity.User) error {
 func (u *UserDB) FindByEmail(email string) (*entity.User, error) {
 	var user entity.User
 	if err := u.DB.Where("email = ?", email).First(&user).Error; err != nil {
+		return nil, err
+	}
+	return &user, nil
+}
+
+func (u *UserDB) FindById(id string) (*entity.User, error) {
+	var user entity.User
+	if err := u.DB.Where("id = ?", id).First(&user).Error; err != nil {
 		return nil, err
 	}
 	return &user, nil

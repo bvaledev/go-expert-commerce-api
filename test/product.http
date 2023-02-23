@@ -1,0 +1,30 @@
+###
+POST http://localhost:8000/products
+content-type: application/json
+
+{
+    "name": "Product 2",
+    "price": 38.50
+}
+
+###
+GET http://localhost:8000/products?page=1&limit=10&sort=asc
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzcxOTE3MDYsInN1YiI6Ijg1MWU3N2M4LTljMDYtNDgzNC05NWQ5LTY0OWU0Mjg4ODFkMyIsInVzZXJfZW1haWwiOiJoZXJtYW5vdGV1QGhlcm1hbm90ZXUuY29tIiwidXNlcl9uYW1lIjoiaGVybWFub3RldSJ9.gfrI1lcTPR_qGeWYgwlHDn3XMEtKEvhof0HlkuoWvsc
+
+###
+GET http://localhost:8000/products/d281bc8f-b1cb-4828-becc-335e391de657
+content-type: application/json
+
+###
+PUT http://localhost:8000/products/d281bc8f-b1cb-4828-becc-335e391de657
+content-type: application/json
+
+{
+    "name": "Product 2 UPDATED",
+    "price": 38.50
+}
+
+###
+DELETE  http://localhost:8000/products/e1b49edb-9515-4ae4-9ac5-95eb7c4fa5ce
+content-type: application/json

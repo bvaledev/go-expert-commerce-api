@@ -1,0 +1,19 @@
+###
+POST http://localhost:8000/users
+content-type: application/json
+
+{
+    "name": "Hermanoteu",
+    "email": "hermanoteu@gmail.com",
+    "password": "senhafort3@"
+}
+
+
+###
+POST http://localhost:8000/users/login
+content-type: application/json
+
+{
+    "email": "hermanoteu@hermanoteu.com",
+    "password": "123456789"
+}
